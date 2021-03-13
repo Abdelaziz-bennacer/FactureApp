@@ -5,7 +5,7 @@ import fr.abdel.repository.InterfaceFactureRepository;
 import fr.abdel.service.InterfaceFactureService;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class FactureServiceNumber implements InterfaceFactureService {
 
     private static Long lastNumber = 0L;

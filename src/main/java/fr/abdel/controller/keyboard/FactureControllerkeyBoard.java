@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 
 import java.util.Scanner;
 
-@Controller
+//@Controller
 public class FactureControllerkeyBoard implements InterfaceFactureController {
 
     private InterfaceFactureService factureService;

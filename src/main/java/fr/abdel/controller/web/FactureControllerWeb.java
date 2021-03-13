@@ -6,6 +6,7 @@ import fr.abdel.service.InterfaceFactureService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class FactureControllerWeb implements InterfaceFactureController {
@@ -27,5 +28,11 @@ public class FactureControllerWeb implements InterfaceFactureController {
         facture.setCutomerName(customerName);
 
         factureService.createFacture(facture);
+    }
+
+    @RequestMapping("/home")
+    public String displayHome(){
+        System.out.println("La méthode displayHome a été invoquée");
+        return "index";
     }
 }

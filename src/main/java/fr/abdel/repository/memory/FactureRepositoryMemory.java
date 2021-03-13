@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository
+//@Repository
 public class FactureRepositoryMemory implements InterfaceFactureRepository {
 
     private static List<Facture> factures = new ArrayList<>();

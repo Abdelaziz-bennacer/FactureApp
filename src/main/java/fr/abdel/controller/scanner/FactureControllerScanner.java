@@ -5,7 +5,7 @@ import fr.abdel.entity.Facture;
 import fr.abdel.service.InterfaceFactureService;
 import org.springframework.stereotype.Controller;
 
-@Controller
+//@Controller
 public class FactureControllerScanner implements InterfaceFactureController {
 
 
